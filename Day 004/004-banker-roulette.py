@@ -11,6 +11,9 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
+# -1 karena randint mulai dari 0, 1, 2, dst
+# padahal len(names) nya mulai dari 1, 2, 3, dst
+# jadi biar jumlah randint nya sama dengan len(names) di -1
 name = names [random.randint(0,(len(names)-1))]
 
 # simpler way below
