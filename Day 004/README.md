@@ -1,88 +1,24 @@
-## Treasure Map
+## Rock Paper Scissors
 
-# UPDATE
-We've moved away from repl.it for coding exercises.
-Check out the new exercises on Coding Rooms with automated submissions.
-
-Login to your Udemy course and head over to the link below to get the sign up link:
-
-[Click here](https://www.udemy.com/course/100-days-of-code/learn/lecture/17825914#questions)
-
-![](https://cdn.fs.teachablecdn.com/wiFJAkZZSG2RpGsxYgDO)
 # Instructions
 
-You are going to write a program which will mark a spot with an X.
+Make a rock, paper, scissors game. 
 
-In the starting code, you will find a variable called ```map```.
+Inside the `main.py` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable: `rock`, `paper`, and `scissors`. This will make it easy to print them out to the console. 
 
-This ```map``` contains a nested list.
-When ```map``` is printed this is what the nested list looks like:
-```
-['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
-```
-In the starting code, we have used new lines (```\n```) to format the three rows into a square, like this:
-```
-['⬜️', '⬜️', '⬜️']
-['⬜️', '⬜️', '⬜️']
-['⬜️', '⬜️', '⬜️']
-```
-This is to try and simulate the coordinates on a real map. 
+Start the game by asking the player:
 
-![](https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1440,f_auto/Co-ordinates_oggjzg.jpg)
+*"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."*
 
-Your job is to write a program that allows you to mark a square on the map using a two-digit system. The first digit is the vertical column number and the second digit is the horizontal row number. e.g.:
+From there you will need to figure out: 
+* How you will store the user's input.
+* How you will generate a random choice for the computer.
+* How you will compare the user's and the computer's choice to determine the winner (or a draw).
+* And also how you will give feedback to the player. 
 
-![](https://cdn.fs.teachablecdn.com/2vnboIYTFFruvl9FJ2w5)
+You can find the "official" rules of the game on [the World Rock Paper Scissors Association website.](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/)
 
-First your program must take the user input and convert it to a usable format. 
-
-Next, you need to use it to update your nested list with an "x". 
-
-# Example Input 1
-
-column 2, row 3 would be entered as:
-
-```
-23
-```
-
-# Example Output 1
-
-```
-['⬜️', '⬜️', '⬜️']
-
-['⬜️', '⬜️', '⬜️']
-
-['⬜️', 'X', '⬜️']
-```
-
-# Example Input 2
-
-column 3, row 1 would be entered as:
-
-```
-31
-```
-
-# Example Output 2
-
-```
-['⬜️', '⬜️', 'X']
-
-['⬜️', '⬜️', '⬜️']
-
-['⬜️', '⬜️', '⬜️']
-```
-
-e.g. When you hit **run**, this is what should happen: 
-
-![](https://cdn.fs.teachablecdn.com/5hliFjyIR96LdestyfPd)
-
-# Hint
-
-1. Remember that Lists start at index 0!
-2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.
 
 # Solution
 
-[https://repl.it/@appbrewery/day-4-3-solution](https://repl.it/@appbrewery/day-4-3-solution)
+[https://replit.com/@appbrewery/rock-paper-scissors-end](https://replit.com/@appbrewery/rock-paper-scissors-end)
