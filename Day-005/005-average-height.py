@@ -15,7 +15,7 @@ total_students = 0
 for y in student_heights:
     total_students += 1
 
-average = round(int(total_heights / total_students))
+average = round(total_heights / total_students)
 
 print (f"the average student height is {average}")
 
